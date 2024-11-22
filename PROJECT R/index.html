@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Classifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Diabetic Retinopathy Classifier</h1>
+        <form id="uploadForm">
+            <label for="imageInput" class="custom-file-input">
+                Choose an Image
+                <input type="file" id="imageInput" name="image" accept="image/*" required>
+            </label>
+            <button type="submit">Classify</button>
+        </form>
+
+        <div id="preview-section">
+            <h2>Image Preview:</h2>
+            <img id="imagePreview" src="#" alt="Image Preview" class="hidden">
+        </div>
+
+        <div id="result">Upload an image to see the result here.</div>
+        <div id="error"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

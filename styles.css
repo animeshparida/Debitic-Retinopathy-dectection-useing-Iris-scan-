@@ -1,0 +1,104 @@
+/* Reset basic styles */
+body, h1, h2, form, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Main container styling */
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    color: #333333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+/* Custom file input */
+.custom-file-input {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.custom-file-input input {
+    display: none;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Preview section */
+#preview-section {
+    margin: 20px 0;
+}
+
+#preview-section h2 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#imagePreview {
+    max-width: 100%;
+    max-height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Result and error */
+#result {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+#error {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.9rem;
+}
